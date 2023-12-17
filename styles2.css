@@ -1,0 +1,224 @@
+.elemento {
+  width: 50%; /* Esto es mejor que un ancho fijo en píxeles */
+}
+
+.contact-explore-wrapper {
+    height: 19px;
+    background-color: black;
+    color: #cbcbcb;
+    /* Flexbox container */
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.contact-explore-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.contact-explore-wrapper > .nav-link {
+    width: 90px;
+    text-align: center;
+}
+
+.contact-explore-wrapper > .nav-link a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+    /**right column**/
+
+    .clickable-rectangle {
+      width: 70px;       /* Ancho del rectángulo */
+      height: 45px;      /* Altura del rectángulo */
+      background-color: rgb(47, 47, 49); /* Color de fondo */
+      opacity: 50;
+      color: white;       /* Color del texto */
+      text-align: center; /* Alineación del texto */
+      line-height: 100px; /* Centrar el texto verticalmente */
+      margin-bottom: 45px;/* Espacio en la parte inferior de cada rectángulo */
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 30px;
+      align-items: left;
+      cursor: pointer;    /* Cambiar el cursor a mano cuando pase por encima */
+    }
+
+    .contact-explore-wrapper > .looking-for-wrapper {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+    }
+    
+    .contact-explore-wrapper > .looking-for-wrapper > .nav-link {
+        width: 120px;
+        text-align: right;
+    }
+    
+    .looking-for-wrapper > .nav-link a {
+        font-family: "Ubuntu Condensed", sans-serif;
+        color: #cbcbcb;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+
+    
+    .card {
+      background-color: #626268;
+      color: #0327f5;
+      display: flex;
+
+    }
+  
+    .card {
+      width: 100%;
+      height: 100%;
+      display:flex;
+      flex-direction: column;
+      align-items: start;
+      align-self: flex-start;
+    }
+  
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+  
+    .card-text {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  
+    .card-image {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: left;
+      align-self: end;
+      
+  
+    }
+  
+    .card-image {
+      max-width: auto;
+      height: auto;
+    }
+    
+
+    
+  .header {
+    background-color: #fa12ad;
+    padding: 100rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .header-title {
+    color: #f8e801;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .header-subtitle {
+    color: #9f9f9f;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0.375rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .btn-signup {
+    background-color: #22c55e;
+    color: #000000;
+  }
+
+  .btn-learn {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+
+  .btn-signup:hover, .btn-learn:hover {
+    background-color: #f8f408;
+    color: #131418;
+  }
+
+  .menu {
+    background-color: #000000;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .menu-item {
+    display: inline-block;
+    margin: 0 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .menu-item:hover {
+    text-decoration: underline;
+  }
+
+
+
+  .footer {
+    background-color: #4b4949;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+
+  .footer > menu > .clickable-rectangle {
+    width: 70px;       /* Ancho del rectángulo */
+    height: 45px;      /* Altura del rectángulo */
+    background-color: rgb(47, 47, 49); /* Color de fondo */
+    opacity: 50;
+    color: white;       /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    line-height: 100px; /* Centrar el texto verticalmente */
+    margin-bottom: 45px;/* Espacio en la parte inferior de cada rectángulo */
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    align-items: center;
+    cursor: pointer;    /* Cambiar el cursor a mano cuando pase por encima */
+  }
+
+.footer > .menu {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+footer > .menu {
+    width: 120px;
+    text-align: center;
+}
+
+footer > .menu > a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+   }
+
+ 
